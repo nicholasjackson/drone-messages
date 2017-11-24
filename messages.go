@@ -43,6 +43,9 @@ const (
 	// CommandStop instructs the drone to stop
 	CommandStop = "stop"
 
+	// CommandFollowFace instructs the drone to follow the location of a detected face
+	CommandFollowFace = "followface"
+
 	//CommandConnect instructs the application to connect to a drone
 	CommandConnect = "connect"
 	//CommandDisconnect instructs the application to connect to a drone
