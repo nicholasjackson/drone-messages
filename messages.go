@@ -40,6 +40,8 @@ const (
 	CommandTakeOff = "takeoff"
 	// CommandUp instructs a drone to move up
 	CommandUp = "up"
+	// CommandStop instructs the drone to stop
+	CommandStop = "stop"
 
 	//CommandConnect instructs the application to connect to a drone
 	CommandConnect = "connect"
