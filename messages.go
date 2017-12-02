@@ -15,10 +15,9 @@ const (
 	// MessageFaceDetection is the name of a message when a new face has been detected
 	MessageFaceDetection = "image.facedetection"
 	// MessageDroneImage is the name of a messeage when the drone takes a new image
-	MessageDroneImage = "image.new"
-
+	MessageDroneImage = "image.stream"
 	// MessageDronePicture is the name of a messeage when the drone takes a new image
-	MessageDronePicture = "pciture.new"
+	MessageDronePicture = "image.picture"
 )
 
 const (
@@ -44,17 +43,14 @@ const (
 	CommandUp = "up"
 	// CommandStop instructs the drone to stop
 	CommandStop = "stop"
-
-	// CommandFollowFace instructs the drone to follow the location of a detected face
-	CommandFollowFace = "followface"
-
 	//CommandConnect instructs the application to connect to a drone
 	CommandConnect = "connect"
 	//CommandDisconnect instructs the application to connect to a drone
 	CommandDisconnect = "disconnect"
-
 	// CommandTakePicture isntructs the drone to take a picture
 	CommandTakePicture = "takepicture"
+	// CommandFollowFace instructs the drone to follow the location of a detected face
+	CommandFollowFace = "followface"
 )
 
 // DroneImage defines a new image taken from a drone
