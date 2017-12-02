@@ -14,6 +14,8 @@ const (
 	MessageFlight = "drone.flight"
 	// MessageFaceDetection is the name of a message when a new face has been detected
 	MessageFaceDetection = "image.facedetection"
+	// MessageLiveImage is the live image to display on the preview
+	MessageLiveImage = "image.live"
 	// MessageDroneImage is the name of a messeage when the drone takes a new image
 	MessageDroneImage = "image.stream"
 	// MessageDronePicture is the name of a messeage when the drone takes a new image
